@@ -3,7 +3,6 @@ Simple 2d world where the player can interact with the items in the world.
 """
 
 __author__ = "shawnxhong"
-__date__ = ""
 __copyright__ = "assignment of The University of Queensland, 2019"
 
 import math
