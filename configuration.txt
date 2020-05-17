@@ -1,0 +1,20 @@
+==World==
+gravity : 400
+start : level1.txt
+==Player==
+character : luigi
+x : 30
+y : 30
+mass : 100
+health : 10
+max_velocity : 100
+==level1.txt==
+tunnel : bonus.txt
+goal : level2.txt
+==bonus.txt==
+goal : level1.txt
+==level2.txt==
+tunnel : small_room.txt
+goal : level3.txt
+==level3.txt==
+goal : END
